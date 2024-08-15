@@ -4,16 +4,12 @@
 }
 
 .product__pic {
-  width: 260px;
-  height: 195px;
   margin: 0;
   padding: 0;
-  background-size: cover;
 }
 
 .product__name {
-  margin: 0;
-  margin-bottom: 6px;
+  margin: 28px 0 0 28px;
   padding: 0;
   font-family: $bold;
   font-size: 17px;
@@ -23,8 +19,7 @@
 }
 
 .product__measures {
-  margin: 0;
-  margin-bottom: 41px;
+  margin: 6px 0 0 28px;
   padding: 0;
   font-family: $regular;
   font-size: 13px;
@@ -35,7 +30,7 @@
 }
 
 .product__price {
-  margin: 0;
+  margin: 41px 0 0 28px;
   padding: 0;
   font-family: $bold;
   font-size: 15px;
@@ -52,5 +47,17 @@
   .product__pic {
     width: 316px;
     height: 462px;
+  }
+
+  .product__name {
+    margin-left: 0;
+  }
+
+  .product__price {
+    margin-left: 0;
+  }
+
+  .product__measures{
+    margin-left: 0;
   }
 }

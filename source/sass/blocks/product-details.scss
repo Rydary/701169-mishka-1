@@ -1,0 +1,7 @@
+@media (min-width: $tablet) {
+  .product-details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

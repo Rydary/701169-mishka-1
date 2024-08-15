@@ -7,6 +7,10 @@
   .main-header__logo-pic {
     margin: 0 auto 48px 22px;
   }
+
+  .main-header__toogle {
+    display: none;
+  }
 }
 
 @media (min-width: $desktop) {

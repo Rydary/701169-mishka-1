@@ -10,7 +10,7 @@
 <body>
   <header class="main-header">
     <a href="" class="main-header__logo">
-      <img src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка." class="main-header__logo-pic">
+      <img class="main-header__logo-pic" src="./img/mishka-logo-mobile.svg" alt="Логотип магазина Мишка.">
     </a>
     <button class="main-header__toogle">
       <span class="visually-hidden">Открыть меню</span>
@@ -19,8 +19,16 @@
       <ul class="main-nav__list">
         <li class="main-nav__list-item">Каталог товаров</li>
         <li class="main-nav__list-item">Вязание на заказ</li>
-        <li class="main-nav__list-item search">Поиск по сайту</li>
-        <li class="main-nav__list-item cart">Корзина: <span class="cart__content">пока пуста</span></li>
+      </ul>
+      <ul class="user-nav__list">
+        <li class="user-nav__list-item search"><span class="search__desc">Поиск по сайту</span></li>
+        <li class="user-nav__list-item cart">Корзина: <span class="cart__content">пока пуста</span></li>
+      </ul>
+    </div>
+    <div class="main-nav__extra">
+      <ul class="extra-list">
+        <li class="extra-list__item">Новые поступления</li>
+        <li class="extra-list__item">Распродажа</li>
       </ul>
     </div>
   </header>
@@ -40,9 +48,11 @@
           <a href="" class="">
             <img class="product__pic" src="./img/rabbit.jpg" alt="Фото зайчик-попрыгайчик.">
           </a>
-          <p class="product__name">Зайчик-попрыгайчик</p>
-          <p class="product__measures">Рост 30 см, вес 200 г</p>
-          <p class="product__price">1 200 руб.</p>
+          <div class="product-details">
+            <p class="product__name">Зайчик-попрыгайчик</p>
+            <p class="product__measures">Рост 30 см, вес 200 г</p>
+            <p class="product__price">1 200 руб.</p>
+          </div>
           <button class="cart">
             <span class="visually-hidden">Добавить в корзину</span>
           </button>

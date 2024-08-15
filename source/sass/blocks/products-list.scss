@@ -1,15 +1,14 @@
 .products-list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style-type: none;
 }
 
-
-@media (min-width: $desktop) {
-  .products-list {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
+// @media (min-width: $tablet) {
+//   .products-list__item {
+//     max-width: 670px;
+//   }
+// }

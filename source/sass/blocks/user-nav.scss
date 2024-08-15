@@ -1,0 +1,41 @@
+.user-nav__list {
+  margin: 0;
+  padding: 0;
+  font-family: $bold;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.user-nav__list-item {
+  width: 100%;
+  padding: 28px 0 27px;
+  border-top: 1px solid $grey;
+
+  &:last-child {
+    border-bottom: 1px solid $grey;
+  }
+}
+
+@media (min-width: $tablet) {
+  .user-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-right: 30px;
+    order: 1;
+    max-width: 360px;
+    margin-left: auto;
+  }
+
+  .user-nav__list-item {
+    width: auto;
+    border: none;
+  }
+
+  .user-nav__list-item .search {
+    width: 50px;
+  }
+}

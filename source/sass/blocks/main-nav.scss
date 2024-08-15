@@ -20,9 +20,16 @@
 }
 
 @media (min-width: $tablet) {
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
   .main-nav__list {
     display: flex;
-    margin-right: auto;
+    align-items: left;
+    max-width: 360px;
   }
 
   .main-nav__list-item {

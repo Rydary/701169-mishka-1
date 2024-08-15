@@ -16,8 +16,8 @@
 }
 
 .production__desc {
-  width: 350px;
-  margin: 0 auto 41px;
+  max-width: 200px;
+  margin: 0 auto;
   font-family: $regular;
   font-size: 13px;
   font-weight: 400;
@@ -27,5 +27,12 @@
 }
 
 .production__order {
-  margin: 0 auto 33px;
+  margin: 41px auto 33px;
+}
+
+@media (min-width: $desktop) {
+  .production__desc {
+    max-width: 252px;
+    margin-left: auto;
+  }
 }
